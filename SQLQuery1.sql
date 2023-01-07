@@ -22,3 +22,7 @@ Update AddressBookTable Set PhoneNo=954899 Where FirstName='Suhas'
 
 Delete from AddressBookTable Where FirstName='Shreya'
 SELECT *FROM AddressBookTable;
+
+
+SELECT *FROM AddressBookTable WHERE City='Pune';
+SELECT *FROM AddressBookTable WHERE City='Hubli';
