@@ -40,3 +40,6 @@ SELECT *FROM AddressBookTable
 UPDATE AddressBookTable SET AddressBookName='Family-Circle' WHERE AddressBookType='Family'
 UPDATE AddressBookTable SET AddressBookName='Friend-Circle' WHERE AddressBookType='Friend'
 SELECT *FROM AddressBookTable
+
+SELECT COUNT(*) AS SIZE FROM AddressBookTable WHERE AddressBookType='Family';
+SELECT COUNT(*) AS SIZE FROM AddressBookTable WHERE AddressBookType='Friend';
