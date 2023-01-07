@@ -17,3 +17,5 @@ Insert into AddressBookTable values('Akshata','RN','RenukaNagar','Hubli','Karnat
 ('Suhas','Kulkarni','Pune','Pune','Maharashtra',123645,1254789654,'sunil@gmail.com'),
 ('Shreya','Shetty','Bangalore','Bangalore','Karnataka',158745,1222222222,'shreya@gmail.com');
 SELECT *FROM AddressBookTable;
+
+Update AddressBookTable Set PhoneNo=954899 Where FirstName='Suhas'
