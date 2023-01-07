@@ -12,3 +12,8 @@ PhoneNo Int NOT NULL,
 Email VARCHAR(30) NOT NULL
 );
 SELECT *FROM AddressBookTable;
+
+Insert into AddressBookTable values('Akshata','RN','RenukaNagar','Hubli','Karnataka',580030,1234564692,'akshatarn@gmail.com'),
+('Suhas','Kulkarni','Pune','Pune','Maharashtra',123645,1254789654,'sunil@gmail.com'),
+('Shreya','Shetty','Bangalore','Bangalore','Karnataka',158745,1222222222,'shreya@gmail.com');
+SELECT *FROM AddressBookTable;
