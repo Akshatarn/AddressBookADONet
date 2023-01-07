@@ -19,3 +19,6 @@ Insert into AddressBookTable values('Akshata','RN','RenukaNagar','Hubli','Karnat
 SELECT *FROM AddressBookTable;
 
 Update AddressBookTable Set PhoneNo=954899 Where FirstName='Suhas'
+
+Delete from AddressBookTable Where FirstName='Shreya'
+SELECT *FROM AddressBookTable;
