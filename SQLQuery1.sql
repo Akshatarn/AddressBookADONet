@@ -26,3 +26,5 @@ SELECT *FROM AddressBookTable;
 
 SELECT *FROM AddressBookTable WHERE City='Pune';
 SELECT *FROM AddressBookTable WHERE City='Hubli';
+
+SELECT COUNT(*) AS SIZE FROM AddressBookTable WHERE Address='Pune';
