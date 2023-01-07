@@ -43,3 +43,7 @@ SELECT *FROM AddressBookTable
 
 SELECT COUNT(*) AS SIZE FROM AddressBookTable WHERE AddressBookType='Family';
 SELECT COUNT(*) AS SIZE FROM AddressBookTable WHERE AddressBookType='Friend';
+
+INSERT INTO AddressBookTable VALUES('Divya','Bhat','Bihar','Bihar','Bihar',156545,1222883442,'divya@gmail.com','Friend','Friend-Circle'),
+('Tejas','K','Mysore','Mysore','Karnataka',125647,1282773654,'tejas@gmail.com','Family','Family-Circle');
+SELECT *FROM AddressBookTable;
